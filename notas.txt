@@ -1,0 +1,19 @@
+Explicação das tabelas precisas para nos irmos lembrando:
+
+1- Usar a tabela D_ICD_DIAGNOSES.csv para escolher um código de doença.
+
+2- Usar a tabela DIAGNOSES_ICD.csv para encontrar todos os SUBJECT_ID (pacientes) com esse código.
+
+Nota: um paciente (SUBJECT_ID) pode ter várias admissões (HADM_ID), e cada admissão pode ter várias estadias na UCI (ICUSTAY_ID).
+
+Para a visualização dos dados igual à stora:
+
+Eixo X: tempo em dias
+
+Eixo Y: valor de algum item (e.g., volume de fluido administrado)
+
+1- Os dados para isso vêm da tabela CHARTEVENTS.csv ou INPUTEVENTS_MV.csv (dependendo do tipo de item).
+
+2- Para decifrar os ITEMID (tipo de medição), usar a tabela D_ITEMS.csv
+
+Target Variable -> tempo de permanência na UCI, OUTTIME - INTIME da ICUSTAYS.csv
