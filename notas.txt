@@ -16,4 +16,6 @@ Eixo Y: valor de algum item (e.g., volume de fluido administrado)
 
 2- Para decifrar os ITEMID (tipo de medição), usar a tabela D_ITEMS.csv
 
-Target Variable -> tempo de permanência na UCI, OUTTIME - INTIME da ICUSTAYS.csv
+Target Variable -> tempo de permanência na UCI, LOS
+
+Só existem 59 pacientes com medição de heart rate, todas as medidas só existem p poucos pacientes (no chart events, p doença congestive heart failure)
