@@ -19,3 +19,7 @@ Eixo Y: valor de algum item (e.g., volume de fluido administrado)
 Target Variable -> tempo de permanência na UCI, LOS
 
 Só existem 59 pacientes com medição de heart rate, todas as medidas só existem p poucos pacientes (no chart events, p doença congestive heart failure)
+
+Também só existem 64 ICUSTAY_ID unicos com medição de heart rate, já que oq importa são os ICUSTAYS (LOS é p cada icustay) e não os patients
+
+Máximo de medidas p icustay único são 82.
