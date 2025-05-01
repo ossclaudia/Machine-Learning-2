@@ -21,3 +21,7 @@ Target Variable -> tempo de permanência na UCI, LOS
 Só existem 59 pacientes com medição de heart rate, todas as medidas só existem p poucos pacientes (no chart events, p doença congestive heart failure)
 Também só existem 70 ICUSTAY_ID unicos com medição de heart rate, já que oq importa são os ICUSTAYS (LOS é p cada icustay) e não os patients
 Máximo de medidas p icustay único são 89.
+
+
+Code 428 - number of diagnoses with seq=1.0 : 1488 - Number of chartevents: 986502
+Code 4280 - number of diagnoses with seq=1.0 : 570 - Number of chartevents: 137698
