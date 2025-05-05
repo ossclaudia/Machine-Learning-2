@@ -25,3 +25,19 @@ Máximo de medidas p icustay único são 89.
 
 Code 428 - number of diagnoses with seq=1.0 : 1488 - Number of chartevents: 986502
 Code 4280 - number of diagnoses with seq=1.0 : 570 - Number of chartevents: 137698
+
+Perguntas:
+
+- quais comordbidades podem agravar o heartfailure? Usar as top5 ou as mais importantes
+- usar macros ou micros nas comordbidades
+
+
+TODO:
+
+- dropar NAs
+- Add Elixhauser Comorbidity Index (EI)
+- Fazer OHE das comorbidities
+- filtrar chartevents para primeiro/segundo dia
+- criar colunas pros items do chartvents
+- historgamas item por paciente, icu stays por paciente
+- criar feature que diga se o paciente teve internações anteriores (na mesma admission - feature, em outra amdissioin - outra feature ?) - se foi longa
