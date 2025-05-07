@@ -34,10 +34,10 @@ Perguntas:
 
 TODO:
 
-- dropar NAs
+- filtrar chartevents para primeiro/segundo dia  - DONE
+- dropar NAs  - DONE
+- Fazer OHE das comorbidities - DONE
 - Add Elixhauser Comorbidity Index (EI)
-- Fazer OHE das comorbidities
-- filtrar chartevents para primeiro/segundo dia
 - criar colunas pros items do chartvents
 - historgamas item por paciente, icu stays por paciente
 - criar feature que diga se o paciente teve internações anteriores (na mesma admission - feature, em outra amdissioin - outra feature ?) - se foi longa
