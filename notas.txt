@@ -37,7 +37,15 @@ TODO:
 - filtrar chartevents para primeiro/segundo dia  - DONE
 - dropar NAs  - DONE
 - Fazer OHE das comorbidities - DONE
-- Add Elixhauser Comorbidity Index (EI)
-- criar colunas pros items do chartvents
-- historgamas item por paciente, icu stays por paciente
-- criar feature que diga se o paciente teve internações anteriores (na mesma admission - feature, em outra amdissioin - outra feature ?) - se foi longa
+- Add Elixhauser Comorbidity Index (EI) - tried and failed
+- criar colunas pros items do chartvents - DONE
+- historgamas item por paciente (DONE), pacientes por item (DONE) icu stays por paciente (DONE) e por admission (DONE)
+- criar feature que diga se o paciente teve internações anteriores (na mesma admission - feature, em outra amdissioin - outra feature ?) - se foi longa 
+
+
+
+
+"comorbidity1_4254", "RELIGION_PROTESTANT QUAKER", "ETHNICITY_GROUPED_Black",
+
+sem: melhor rmse: 3.53 (knn) r2 = 0.2
+com: 3.63 (elastic net) r2 = 0.15
