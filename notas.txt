@@ -49,3 +49,7 @@ TODO:
 
 sem: melhor rmse: 3.53 (knn) r2 = 0.2
 com: 3.63 (elastic net) r2 = 0.15
+
+
+- qual metrica usar
+-
